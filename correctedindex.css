@@ -1,0 +1,61 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+}
+
+/* Card Container */
+.card {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1.25rem;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* QR Image */
+.card img {
+  width: 100%;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+/* Text Styling */
+.bolded {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  margin-bottom: 0.75rem;
+}
+
+.notbolded {
+  font-size: 0.9375rem;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  line-height: 1.4;
+}
+
+/* Footer Attribution */
+.attribution {
+  position: absolute;
+  bottom: 1rem;
+  font-size: 0.75rem;
+  text-align: center;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
